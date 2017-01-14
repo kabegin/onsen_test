@@ -1,16 +1,5 @@
+// This is a JavaScript file
 
-ons.ready(function(){
-    console.log('Onsen UI is ready!');
-});
-function btnClick(){
-    var str =document.getElementById('text1').value;
-    ons.notification.alert({
-        'title':'Alert',
-        'message':'Hello,'+str+'!!'
-    });    
-   
-};
-;;
 angular.module('myapp', [])
     .controller('MainController', ['$scope', function($scope) {
         $scope.users = [
@@ -25,7 +14,3 @@ angular.module('myapp', [])
         ];
          $scope.today=new Date();
     }]);
-function doc(){
-     var modal = document.getElementById('modal');
-  modal.toggle();
-}    

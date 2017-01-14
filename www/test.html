@@ -13,28 +13,15 @@
   <link rel="stylesheet" href="css/style.css">
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
   <script src="main.js"></script>
-  <script>
-    ons.bootstrap();
-  </script>
 </head>
 <body style="margin:10:px;">
-
-
 <ons-page>
-
     <ons-toolbar>
-
         <div class="center">MyOnsenApp</div>
-
     </ons-toolbar>
-  <ons-modal id="modal" onclick="modal.hide()">
-  Modal content
-</ons-modal>
     <div>
-    
         <section style="padding:8px">
             <p>※サンプルページ。{{name}}</p>
-            
 <div ng-controller="MainController">
 <p>
     {{users.length}}users.
@@ -46,7 +33,7 @@
             <input type="text" id="text1" class="text-input text-input--underbar" placeholder="text">
         </section>
         <section style="padding:8px">
-            <ons-button modifier="large" onclick="doc();">Click</ons-button>
+            <ons-button modifier="large" onclick="btnClick();">Click</ons-button>
         </section>
     </div>
 </ons-page>
